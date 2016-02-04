@@ -1,8 +1,9 @@
 @import "color.scss";
 @import "adventpro.scss";
+@import "gradients.scss";
 
-.background  {
-    background-color: $pencil-dark-blue;
+.background {
+    @include gradient-directional(lighten($pencil-dark-blue, 5), darken($pencil-dark-blue, 10), 30deg);
     height: 100vh;
     overflow: hidden;
     color: $pencil-white;
@@ -17,7 +18,7 @@
     right: 0;
     position: absolute;
     height: 100vh;
-    opacity: .3;
+    opacity: 0.3;
 }
 
 iron-icon {
@@ -29,7 +30,7 @@ iron-icon {
 
 .logo-wrapper {
     position: relative;
-    padding-top: 10rem;
+    padding-top: 25vh;
 }
 
 .title {

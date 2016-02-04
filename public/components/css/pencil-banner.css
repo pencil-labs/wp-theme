@@ -23,15 +23,18 @@
   src: url("../../fonts/AdventPro-Bold.ttf") format("truetype");
   font-weight: 700;
 }
-/* line 4, ../../../sass/pencil-banner.scss */
+/* line 5, ../../../sass/pencil-banner.scss */
 .background {
-  background-color: #006077;
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(30deg, #007591, #003744);
+  background-image: -o-linear-gradient(30deg, #007591, #003744);
+  background-image: linear-gradient(30deg, #007591, #003744);
   height: 100vh;
   overflow: hidden;
   color: #F3F8F9;
 }
 
-/* line 11, ../../../sass/pencil-banner.scss */
+/* line 12, ../../../sass/pencil-banner.scss */
 .banner {
   background-image: url("../../img/banner.jpg");
   background-size: cover;
@@ -41,10 +44,10 @@
   right: 0;
   position: absolute;
   height: 100vh;
-  opacity: .3;
+  opacity: 0.3;
 }
 
-/* line 23, ../../../sass/pencil-banner.scss */
+/* line 24, ../../../sass/pencil-banner.scss */
 iron-icon {
   margin: 0 auto;
   display: block;
@@ -52,41 +55,41 @@ iron-icon {
   height: 10rem;
 }
 
-/* line 30, ../../../sass/pencil-banner.scss */
+/* line 31, ../../../sass/pencil-banner.scss */
 .logo-wrapper {
   position: relative;
-  padding-top: 10rem;
+  padding-top: 25vh;
 }
 
-/* line 35, ../../../sass/pencil-banner.scss */
+/* line 36, ../../../sass/pencil-banner.scss */
 .title, h1, h2 {
   font-family: "AdventPro";
   text-align: center;
 }
 
-/* line 40, ../../../sass/pencil-banner.scss */
+/* line 41, ../../../sass/pencil-banner.scss */
 h1 {
   font-size: 5rem;
   font-weight: 500;
 }
-/* line 45, ../../../sass/pencil-banner.scss */
+/* line 46, ../../../sass/pencil-banner.scss */
 h1 span {
   font-weight: 100;
 }
 
-/* line 50, ../../../sass/pencil-banner.scss */
+/* line 51, ../../../sass/pencil-banner.scss */
 h2 {
   line-height: 5rem;
   font-size: 2rem;
   font-weight: 400;
   color: #FFB713;
 }
-/* line 56, ../../../sass/pencil-banner.scss */
+/* line 57, ../../../sass/pencil-banner.scss */
 h2 span {
   font-weight: 500;
 }
 
-/* line 61, ../../../sass/pencil-banner.scss */
+/* line 62, ../../../sass/pencil-banner.scss */
 paper-icon-button {
   --paper-icon-button-ink-color: white;
   color: #F3F8F9;
