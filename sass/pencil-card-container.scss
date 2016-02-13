@@ -1,0 +1,16 @@
+@import "color.scss";
+@import "gradients.scss";
+
+.flex {
+    @apply(--layout-horizontal);
+    @apply(--layout-wrap);
+    width: 100%;
+}
+
+.flexchild {
+    @apply(--layout-flex);
+}
+
+pencil-card-image {
+    @include gradient-directional(lighten($pencil-dark-blue, 5), darken($pencil-dark-blue, 10), 30deg);
+}

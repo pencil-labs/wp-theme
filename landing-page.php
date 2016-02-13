@@ -7,8 +7,8 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
-  <link rel="import" href="http://msfernandes.local/pencillabs/wp-content/themes/pencillabs-theme/public/components/pencil-banner.html">
-  <link rel="import" href="http://msfernandes.local/pencillabs/wp-content/themes/pencillabs-theme/public/components/pencil-card-container.html">
+  <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-banner.html">
+  <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-card-container.html">
 </head>
 <body>
   <pencil-banner></pencil-banner>

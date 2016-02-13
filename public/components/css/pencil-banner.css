@@ -37,6 +37,7 @@
 /* line 12, ../../../sass/pencil-banner.scss */
 .banner {
   background-image: url("../../img/banner.jpg");
+  background-position: center;
   background-size: cover;
   bottom: 0;
   top: 0;
@@ -47,7 +48,7 @@
   opacity: 0.3;
 }
 
-/* line 24, ../../../sass/pencil-banner.scss */
+/* line 25, ../../../sass/pencil-banner.scss */
 iron-icon {
   margin: 0 auto;
   display: block;
@@ -55,41 +56,41 @@ iron-icon {
   height: 10rem;
 }
 
-/* line 31, ../../../sass/pencil-banner.scss */
+/* line 32, ../../../sass/pencil-banner.scss */
 .logo-wrapper {
   position: relative;
   padding-top: 25vh;
 }
 
-/* line 36, ../../../sass/pencil-banner.scss */
+/* line 37, ../../../sass/pencil-banner.scss */
 .title, h1, h2 {
   font-family: "AdventPro";
   text-align: center;
 }
 
-/* line 41, ../../../sass/pencil-banner.scss */
+/* line 42, ../../../sass/pencil-banner.scss */
 h1 {
   font-size: 5rem;
   font-weight: 500;
 }
-/* line 46, ../../../sass/pencil-banner.scss */
+/* line 47, ../../../sass/pencil-banner.scss */
 h1 span {
   font-weight: 100;
 }
 
-/* line 51, ../../../sass/pencil-banner.scss */
+/* line 52, ../../../sass/pencil-banner.scss */
 h2 {
   line-height: 5rem;
   font-size: 2rem;
   font-weight: 400;
   color: #FFB713;
 }
-/* line 57, ../../../sass/pencil-banner.scss */
+/* line 58, ../../../sass/pencil-banner.scss */
 h2 span {
   font-weight: 500;
 }
 
-/* line 62, ../../../sass/pencil-banner.scss */
+/* line 63, ../../../sass/pencil-banner.scss */
 paper-icon-button {
   --paper-icon-button-ink-color: white;
   color: #F3F8F9;
