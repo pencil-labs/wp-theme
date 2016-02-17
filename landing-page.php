@@ -9,8 +9,12 @@
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-banner.html">
   <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-card-container.html">
+  <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-business-container.html">
+  <link rel="import" href="<?php bloginfo('template_url'); ?>/public/components/pencil-work-container.html">
 </head>
 <body>
   <pencil-banner></pencil-banner>
   <pencil-card-container></pencil-card-container>
+  <pencil-business-container></pencil-business-container>
+  <pencil-work-container></pencil-work-container>
 </body>

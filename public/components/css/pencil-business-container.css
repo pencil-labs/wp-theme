@@ -1,0 +1,11 @@
+/* line 3, ../../../sass/pencil-business-container.scss */
+.flex {
+  @apply (--layout-horizontal);
+  @apply (--layout-wrap);
+  width: 100%;
+}
+
+/* line 9, ../../../sass/pencil-business-container.scss */
+.flexchild {
+  @apply (--layout-flex);
+}

@@ -1,0 +1,11 @@
+@import "color.scss";
+
+.flex {
+    @apply(--layout-horizontal);
+    @apply(--layout-wrap);
+    width: 100%;
+}
+
+.flexchild {
+    @apply(--layout-flex);
+}
