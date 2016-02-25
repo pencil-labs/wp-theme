@@ -19,6 +19,7 @@
     "iron-elements": "polymerelements/iron-elements#~1.0.8",
     "neon-animation": "PolymerElements/neon-animation#~1.0.6",
     "paper-elements": "polymerelements/paper-elements#~1.0.7",
-    "polymer": "Polymer/polymer#^1.2.4"
+    "polymer": "Polymer/polymer#^1.2.4",
+    "social-media-icons": "^1.0.3"
   }
 }
